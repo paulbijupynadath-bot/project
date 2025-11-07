@@ -1,0 +1,24 @@
+*{
+     font-family: "Caveat", cursive;
+     padding: 0%;
+     margin: 0%;
+}
+
+.bg-image{
+  background-image: url('./7.jpg');
+      background-size: cover;      /* Fill entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+
+.card:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+}
